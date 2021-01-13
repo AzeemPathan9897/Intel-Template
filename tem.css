@@ -1,0 +1,110 @@
+
+.xyz{
+	 text-align:center;list-style:none;display:inline;font-size:25px;margin-top:15px;margin:0px 10px 0px 10px;
+}
+body{
+	 width:100%;background-image:url('navbar.jpg');text-align:center;background-repeat:repeat;float:left;
+}
+.an{
+    width:100%;background-image:url('bg2.jpg');color:white;margin-top:30px; text-align:center;background-repeat:repeat;float:left;	
+}
+.ff{
+    list-style:none;display:inline;word-spacing:5px;text-decoration:none;
+}
+.fxyz{
+	list-style:none;display:inline;text-decoration:none;word-spacing:1px;
+}
+.pri{
+	list-style:none; text-decoration:none;list-style-type: none;clear:both; 
+}
+.ff{
+	list-style: none;float:left;
+}
+.fabc{
+	list-style: none;float:left;
+}
+
+///////////////////////////////
+* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+
+
+
+/////
+.active{
+	margin-top: 20px;
+}
+.headerin{
+	display: inline; float:left; clear:both;
+}
